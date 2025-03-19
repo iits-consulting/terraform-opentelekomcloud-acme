@@ -11,3 +11,4 @@ output:
 sort:
   enabled: true
   by: required
+
