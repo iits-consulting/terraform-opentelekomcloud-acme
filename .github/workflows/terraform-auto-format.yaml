@@ -11,7 +11,7 @@ jobs:
     name: Check terraform file are formatted correctly
     steps:
       - name: Checkout
-        uses: actions/checkout@v11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        uses: actions/checkout@v4.2.2
 
       - name: terraform fmt
         uses: dflook/terraform-fmt@v1
