@@ -2,9 +2,6 @@ name: Terraform documentation generation
 
 on:
   pull_request:
-    types:
-      - opened
-      - synchronize
     paths:
       - '**/*.tf'
       - '**/README.md'
