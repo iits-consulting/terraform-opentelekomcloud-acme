@@ -1,4 +1,4 @@
-name: Terraform documentation generation
+name: Generate Terraform documentation
 
 on:
   pull_request:
