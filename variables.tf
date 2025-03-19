@@ -1,6 +1,6 @@
 variable "otc_project_name" {
   type        = string
-  description = "OTC project name in format \"eu-de_<project_name>\" or \"eu-nl_<project_name>\". The project must have the dns zone(s) created. TEST"
+  description = "OTC project name in format \"eu-de_<project_name>\" or \"eu-nl_<project_name>\". The project must have the dns zone(s) created."
 }
 
 variable "otc_domain_name" {
