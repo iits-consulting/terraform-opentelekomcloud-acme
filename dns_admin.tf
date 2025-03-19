@@ -47,3 +47,5 @@ resource "opentelekomcloud_identity_group_membership_v3" "dns_admin_membership" 
   users = [opentelekomcloud_identity_user_v3.dns_admin.id]
 }
 
+
+
