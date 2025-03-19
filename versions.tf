@@ -20,8 +20,8 @@ terraform {
       version = ">=4.0.0"
     }
     time = {
-      source  = "hashicorp/tls"
-      version = ">=4.0.0"
+      source  = "hashicorp/time"
+      version = ">=0.10.0"
     }
   }
 }
