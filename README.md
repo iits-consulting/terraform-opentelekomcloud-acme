@@ -30,7 +30,7 @@ Notes:
 | <a name="requirement_acme"></a> [acme](#requirement\_acme) | >=2.0.0 |
 | <a name="requirement_opentelekomcloud"></a> [opentelekomcloud](#requirement\_opentelekomcloud) | >=1.35.5 |
 | <a name="requirement_random"></a> [random](#requirement\_random) | >=3.0.0 |
-| <a name="requirement_time"></a> [time](#requirement\_time) | >=4.0.0 |
+| <a name="requirement_time"></a> [time](#requirement\_time) | >=0.10.0 |
 | <a name="requirement_tls"></a> [tls](#requirement\_tls) | >=4.0.0 |
 
 ## Providers
@@ -40,7 +40,7 @@ Notes:
 | <a name="provider_acme"></a> [acme](#provider\_acme) | >=2.0.0 |
 | <a name="provider_opentelekomcloud"></a> [opentelekomcloud](#provider\_opentelekomcloud) | >=1.35.5 |
 | <a name="provider_random"></a> [random](#provider\_random) | >=3.0.0 |
-| <a name="provider_time"></a> [time](#provider\_time) | >=4.0.0 |
+| <a name="provider_time"></a> [time](#provider\_time) | >=0.10.0 |
 | <a name="provider_tls"></a> [tls](#provider\_tls) | >=4.0.0 |
 
 ## Modules
@@ -58,8 +58,8 @@ No modules.
 | [opentelekomcloud_identity_role_assignment_v3.dns_admin_to_dns_admin_group](https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/latest/docs/resources/identity_role_assignment_v3) | resource |
 | [opentelekomcloud_identity_user_v3.dns_admin](https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/latest/docs/resources/identity_user_v3) | resource |
 | [random_password.dns_admin_password](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/password) | resource |
-| [time_rotating.password_rotation](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/rotating) | resource |
-| [time_sleep.cert_delay](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/sleep) | resource |
+| [time_rotating.password_rotation](https://registry.terraform.io/providers/hashicorp/time/latest/docs/resources/rotating) | resource |
+| [time_sleep.cert_delay](https://registry.terraform.io/providers/hashicorp/time/latest/docs/resources/sleep) | resource |
 | [tls_private_key.registration](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/private_key) | resource |
 | [opentelekomcloud_identity_project_v3.project](https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/latest/docs/data-sources/identity_project_v3) | data source |
 | [opentelekomcloud_identity_role_v3.dns_admin_role](https://registry.terraform.io/providers/opentelekomcloud/opentelekomcloud/latest/docs/data-sources/identity_role_v3) | data source |
