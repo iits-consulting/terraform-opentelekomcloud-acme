@@ -38,12 +38,8 @@ jobs:
         uses: terraform-docs/gh-actions@v1.3.0
         with:
           config-file: .terraform-docs.yaml
-          git-push: "false"
+          git-push: true
           working-dir: .
-
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update tfdocs in README.md (automated)"
 
   linting:
     runs-on: ubuntu-latest
