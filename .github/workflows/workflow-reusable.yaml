@@ -33,6 +33,8 @@ jobs:
     steps:
 
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Render terraform docs and push changes back to PR
         uses: terraform-docs/gh-actions@v1.3.0
