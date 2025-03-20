@@ -3,5 +3,5 @@ output "certificate" {
     certificate = "${certificate.certificate_pem}${certificate.issuer_pem}"
     private_key = certificate.private_key_pem
   } }
-  sensitive = true
+      sensitive = true
 }
