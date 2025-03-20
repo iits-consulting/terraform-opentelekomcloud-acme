@@ -23,16 +23,6 @@ Notes:
 
 <!-- BEGIN_TF_DOCS -->
 
-## Providers
-
-| Name                                                                                    | Version  |
-| --------------------------------------------------------------------------------------- | -------- |
-| <a name="provider_acme"></a> [acme](#provider_acme)                                     | >=2.0.0  |
-| <a name="provider_opentelekomcloud"></a> [opentelekomcloud](#provider_opentelekomcloud) | >=1.35.5 |
-| <a name="provider_random"></a> [random](#provider_random)                               | >=3.0.0  |
-| <a name="provider_time"></a> [time](#provider_time)                                     | >=0.10.0 |
-| <a name="provider_tls"></a> [tls](#provider_tls)                                        | >=4.0.0  |
-
 ## Modules
 
 No modules.
