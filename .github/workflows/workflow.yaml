@@ -5,5 +5,7 @@ on:
 
 jobs:
   automation-workflow:
-    uses: iits-consulting/terraform-opentelekomcloud-common-workflows/.github/workflows/workflow-reusable.yaml@main
+    # uses: iits-consulting/terraform-opentelekomcloud-common-workflows/.github/workflows/workflow-reusable.yaml@main
+    uses: .github/workflows/workflow-reusable.yaml@main
+
 
